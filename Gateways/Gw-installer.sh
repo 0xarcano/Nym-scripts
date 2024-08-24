@@ -389,7 +389,7 @@ main() {
     apply_network_rules
     add_ipv6_to_config 
     create_systemd_service
-    setup_tmux_session
+#    setup_tmux_session
     
 }
 
