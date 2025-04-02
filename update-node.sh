@@ -1,5 +1,6 @@
 #!/bin/bash
 systemctl stop nym-node
+sleep 2
 mkdir ~/bck
 backup_name=$(date +%M)
 mkdir ~/bck/$backup_name
