@@ -2,7 +2,7 @@
 systemctl stop nym-node
 sleep 2
 mkdir ~/bck
-backup_name=$(date +%t)
+backup_name=$(date +%s)
 mkdir ~/bck/$backup_name
 cp ~/nym-node ~/bck/$backup_name/
 rm ~/nym-node
